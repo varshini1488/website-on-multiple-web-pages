@@ -1,0 +1,196 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #f8c8dc, #a2c8f7); /* Light pink to light blue gradient */
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background: linear-gradient(to right, #ff77b5, #6fa3d9); /* Soft pink to light blue gradient */
+    padding: 1.5rem;
+    text-align: center;
+    color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar li {
+    margin: 0 1.5rem;
+}
+
+.navbar .nav-link {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.2rem;
+    transition: color 0.3s, transform 0.3s;
+}
+
+.navbar .nav-link:hover {
+    color: #ffeb3b; /* Yellow on hover */
+    transform: scale(1.1);
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 4rem 2rem;
+    background: linear-gradient(45deg, #ff7ea5, #84c9f7); /* Soft pink to light blue gradient */
+    color: white;
+    border-bottom: 2px solid #fff;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.5rem;
+}
+
+/* Portfolio Section */
+.portfolio-section {
+    padding: 3rem 2rem;
+    background: #fff;
+    text-align: center;
+}
+
+.portfolio-section h2 {
+    font-size: 2.5rem;
+    color: #444;
+    margin-bottom: 2rem;
+}
+
+.portfolio-container {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.portfolio-item {
+    background: #f7c6d4; /* Soft pink background for portfolio items */
+    padding: 1.5rem;
+    width: 30%;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease-in-out, background 0.3s ease-in-out;
+}
+
+.portfolio-item:hover {
+    transform: scale(1.05);
+    background: #f8a6c3; /* Darker pink on hover */
+}
+
+.portfolio-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.portfolio-item h3 {
+    font-size: 1.8rem;
+    margin-top: 1rem;
+    color: #222;
+}
+
+.portfolio-item p {
+    font-size: 1.1rem;
+    color: #555;
+}
+
+/* About Section */
+.about-section {
+    padding: 3rem 2rem;
+    background: linear-gradient(to right, #c8e6fc, #ffebf5); /* Light blue to soft pink */
+    text-align: center;
+}
+
+.about-section h2 {
+    font-size: 2.5rem;
+    color: #444;
+    margin-bottom: 1.5rem;
+}
+
+.about-section p {
+    font-size: 1.2rem;
+    color: #555;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Contact Section */
+.contact-section {
+    padding: 3rem 2rem;
+    background: #f7faff; /* Light blue background */
+    text-align: center;
+}
+
+.contact-section h2 {
+    font-size: 2.5rem;
+    color: #444;
+    margin-bottom: 1.5rem;
+}
+
+.contact-section form {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: left;
+    background: #f7c6d4; /* Soft pink form background */
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.contact-section label {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 0.5rem;
+    display: block;
+}
+
+.contact-section input,
+.contact-section textarea {
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.contact-section button {
+    padding: 1rem 2rem;
+    background-color: #ff77b5; /* Soft pink button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-section button:hover {
+    background-color: #ff4b89; /* Darker pink button on hover */
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: linear-gradient(to right, #ff77b5, #6fa3d9); /* Matching pink-blue gradient */
+    color: #fff;
+    font-weight: bold;
+    margin-top: 2rem;
+}

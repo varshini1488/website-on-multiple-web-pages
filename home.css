@@ -1,0 +1,119 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #ed2fb4, #ffa1db);
+    color: #f30789;
+    line-height: 1.6;
+}
+
+header {
+    background: linear-gradient(to right, #be33f0, #7014c1);
+    padding: 1rem;
+    text-align: center;
+    color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar li {
+    margin: 0 1rem;
+}
+
+.navbar .nav-link {
+    text-decoration: none;
+    color: #f7ccf1;
+    font-weight: bold;
+    font-size: 3rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    transition: color 0.3s, transform 0.3s;
+}
+
+.navbar .nav-link:hover {
+    color: #4a0451;
+    transform: scale(1.1);
+}
+
+main {
+    padding: 18rem;
+    text-align: center;
+}
+
+.biodata-section {
+    background: #ac1111;
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.title {
+    font-size: 4rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #42054f;
+    margin-bottom: 1rem;
+}
+
+.description {
+    font-size: 2rem;
+    color: #4c0c78;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 2rem;
+}
+
+.biodata-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.biodata-item {
+    background: linear-gradient(to bottom, #fdfbfb, #ebedee);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 2.5rem;
+    border-radius: 100px;
+    box-shadow: 0 3px 6px rgba(90, 9, 9, 0.1);
+    text-align: left;
+}
+
+.biodata-heading {
+    font-size: 1.8rem;
+    color: #222;
+    margin-bottom: 1rem;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.biodata-list {
+    list-style: none;
+    padding: 0;
+}
+
+.biodata-list li {
+    font-size: 1.1rem;
+    color: #333;
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    background: #f7faff;
+    border: 1px solid #dde;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: linear-gradient(to right, #2a5298, #1e3c72);
+    color: #fff;
+    font-size: 1cm;
+    font-weight: bold;
+    margin-top: 20rem;
+}
